@@ -1,2 +1,18 @@
-# ProgrammingLanguagesFinalProject
-This repository contains our blog post, code, and any other relevant information for our Programming Languages final project.
+# MatLab, What Is It Good For?
+
+*Written by: Austin Bohannon, Megan Walley, Donner Hanson, and Allison Thompson*
+
+## Introduction
+
+## History of MatLab
+
+## Where to Use it
+
+## Where it is Used
+
+## Interesting Features
+
+---
+
+## Sources
+
