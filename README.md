@@ -12,7 +12,10 @@ MATLAB is used in a variety of cases. Its most frequent use is in image, data pr
 Embedded Systems\
 Control Systems\
 Digital Signal Processing\
+MATLAB can be used to easily implement programs that can read, and adjust audio signals. This is useful in audio engineering where you may want to create a custom sound algorithm to compress or splice audio with ease.
+
 Wireless Communications\
+MATLAB can be used to model Radio Frequency systems to 
 
 (https://www.educba.com/uses-of-matlab/)
 
