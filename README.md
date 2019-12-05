@@ -77,14 +77,14 @@ By staff size of company (employee amount) and amount of companies with a MATLAB
 
 ![Imgur](https://i.imgur.com/ojfmjx8.png)
 
-* 1-10 Employees 2253
-* 10-50 Employees 6967
-* 50-200 Employees 5635
-* 200-500 Employees 3057
-* 500-1000 Employees 2059
-* 1000-5000 Employees 3573
-* 5000-10000 Employees 992
-* \>10000 Employees 1849
+* 1-10 Employees: 2253
+* 10-50 Employees: 6967
+* 50-200 Employees: 5635
+* 200-500 Employees: 3057
+* 500-1000 Employees: 2059
+* 1000-5000 Employees: 3573
+* 5000-10000 Employees: 992
+* \>10000 Employees: 1849
 
 ![Imgur](https://i.imgur.com/Mx98515.png)
 
