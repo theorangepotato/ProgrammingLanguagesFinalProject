@@ -125,13 +125,16 @@ The benefits of designing an application like this two-part GUI for academic exc
 
 ## Important Tasks
 
-MATLAB is used in a variety of cases. Its most frequent use is in image, data processing, and graphical representation of data in various applications including the following categories:\
-\
+MATLAB is used in a variety of cases. Its most frequent use is in image, data processing, and graphical representation of data in various applications including the following categories:
+
 ### Data Analytics
 
-A user may choose from a variety of machine learning models, and even fine tune them with hyperparameter optimization.  MATLAB can deploy machine learning models anywhere.  A user can generate C code from their MATLAB code for high performance speed with a low use of memory.  Machine learning models are exportable to Simulink and the MATLAB Production Server.\
-![Imgur](https://imgur.com/DmesUlb.png)\
-With the Live Editor, a user is able to spend less time preprocessing data by easily separating noisy data from a variety of inputs, such as images, text, and sensor data<sup>10</sup>.  A user may also visualize trends to easily identify data quality issues.\
+A user may choose from a variety of machine learning models, and even fine tune them with hyperparameter optimization.  MATLAB can deploy machine learning models anywhere.  A user can generate C code from their MATLAB code for high performance speed with a low use of memory.  Machine learning models are exportable to Simulink and the MATLAB Production Server.
+
+![Imgur](https://imgur.com/DmesUlb.png)
+
+With the Live Editor, a user is able to spend less time preprocessing data by easily separating noisy data from a variety of inputs, such as images, text, and sensor data<sup>10</sup>.  A user may also visualize trends to easily identify data quality issues.
+
 ![Imgur](https://imgur.com/tJ7syEa.png)
 
 ### Deep Learning
@@ -139,8 +142,10 @@ With the Live Editor, a user is able to spend less time preprocessing data by ea
 Expertise in building deep learning models is unnecessary with MATLAB.  MATLAB provides a user with visualization tools so they can more easily create, modify, and analyze deep learning architectures<sup>11</sup>.
  
 ### Computer Vision
-MATLAB is used to develop algorithms regarding image and video data.  A user may explore camera calibration, image segmentation, and view 3D data as either volumes or 2D plane slices.  MATLAB performs computer vision tasks such as object recognition, point cloud processing (measures and analyzes a 3D collection of data points), and stereo vision (depth recovery from camera triangulation)<sup>12</sup>.\
-![Imgur](https://imgur.com/IL4eeQj.png)\
+MATLAB is used to develop algorithms regarding image and video data.  A user may explore camera calibration, image segmentation, and view 3D data as either volumes or 2D plane slices.  MATLAB performs computer vision tasks such as object recognition, point cloud processing (measures and analyzes a 3D collection of data points), and stereo vision (depth recovery from camera triangulation)<sup>12</sup>.
+
+![Imgur](https://imgur.com/IL4eeQj.png)
+
 It contains tools which allow a user to collaborate with teams using other languages such as OpenCV, Python, and C/C++<sup>12</sup>.
 
 ### Signal Processing
@@ -152,20 +157,22 @@ MATLAB can be used to create high level and high fidelity models to simulate com
 
 ### Digital Signal Processing
 
-MATLAB can be used to easily implement programs that can read, and adjust audio signals. This is useful in audio engineering where you may want to create a custom sound algorithm to compress or splice audio with ease<sup>15</sup>.\
+MATLAB can be used to easily implement programs that can read, and adjust audio signals. This is useful in audio engineering where you may want to create a custom sound algorithm to compress or splice audio with ease<sup>15</sup>.
+
 ![Imgur](https://imgur.com/Vu5KkmP.jpg)
 
 ### Robotics
 
 A user may automate code generation for embedded devices in a variety of languages and deploy hardware-agnostic algorithms<sup>16</sup>.
-An engineer may use 3D models to consider rigid-body mechanics and actuator dynamics to design a hardware platform, and design algorithms which allow robots make choices in ambiguous situations<sup>16</sup>.\
+An engineer may use 3D models to consider rigid-body mechanics and actuator dynamics to design a hardware platform, and design algorithms which allow robots make choices in ambiguous situations<sup>16</sup>.
+
 ![Imgur](https://imgur.com/I3SO4sS.png)
 
 ### Control Systems
 
 MATLAB provides many design and analysis techniques such as robust control and model predictive control (which help a system deal with uncertainty), Bode diagrams (graph of a system’s frequency response), and linear algebraic tools.  It may also simulate supervisory logic to perform scheduling, mode switching, and FDIR (fault detection, isolation, and recovery)<sup>17</sup>.
-![Imgur](https://imgur.com/6tbcHUI.png)
 
+![Imgur](https://imgur.com/6tbcHUI.png)
 
 ### Embedded Systems
 In embedded systems MATLAB can be used in conjunction with built in code generators (from out of the box) or with third party libraries to generate C/C++ code for optimal embedded systems code. Some examples of embedded systems are washing machines, printers, automobiles, cameras, industrial machines, etc<sup>18</sup>.
