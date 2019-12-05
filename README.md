@@ -123,26 +123,56 @@ The instructor’s GUI offers a “batch mode” in which an excel file can be g
 
 The benefits of designing an application like this two-part GUI for academic excellence is quite obvious.
 
-## Where it is Used
+## Important Tasks
 
-MATLAB is used in a variety of cases. Its most frequent use is in image, data processing, and graphical representation of data in various applications including the following categories: 
+MATLAB is used in a variety of cases. Its most frequent use is in image, data processing, and graphical representation of data in various applications including the following categories:\
+\
+### Data Analytics
 
-* Embedded Systems
-* Control Systems
-* Digital Signal Processing
+A user may choose from a variety of machine learning models, and even fine tune them with hyperparameter optimization.  MATLAB can deploy machine learning models anywhere.  A user can generate C code from their MATLAB code for high performance speed with a low use of memory.  Machine learning models are exportable to Simulink and the MATLAB Production Server.\
+![Imgur](https://imgur.com/DmesUlb.png)\
+With the Live Editor, a user is able to spend less time preprocessing data by easily separating noisy data from a variety of inputs, such as images, text, and sensor data<sup>10</sup>.  A user may also visualize trends to easily identify data quality issues.\
+![Imgur](https://imgur.com/tJ7syEa.png)
 
-MATLAB can be used to easily implement programs that can read, and adjust audio signals. This is useful in audio engineering where you may want to create a custom sound algorithm to compress or splice audio with ease.
+### Deep Learning
+
+Expertise in building deep learning models is unnecessary with MATLAB.  MATLAB provides a user with visualization tools so they can more easily create, modify, and analyze deep learning architectures<sup>11</sup>.
+ 
+### Computer Vision
+MATLAB is used to develop algorithms regarding image and video data.  A user may explore camera calibration, image segmentation, and view 3D data as either volumes or 2D plane slices.  MATLAB performs computer vision tasks such as object recognition, point cloud processing (measures and analyzes a 3D collection of data points), and stereo vision (depth recovery from camera triangulation)<sup>12</sup>.\
+![Imgur](https://imgur.com/IL4eeQj.png)\
+It contains tools which allow a user to collaborate with teams using other languages such as OpenCV, Python, and C/C++<sup>12</sup>.
+
+### Signal Processing
+
+A user can develop predictive models to analyze signals and sensor data, as MATLAB comes with machine learning and deep learning workflows as well as built-in signal analysis and measurement tools<sup>13</sup>.
 
 ### Wireless Communications
+MATLAB can be used to create high level and high fidelity models to simulate component interactions, making it easy to compare designs and analyze performance impact.  Models can have digital, RF, and antenna designs to optimize behavior<sup>14</sup>.
 
-MATLAB can be used to model Radio Frequency systems to <sup>10</sup>
+### Digital Signal Processing
+
+MATLAB can be used to easily implement programs that can read, and adjust audio signals. This is useful in audio engineering where you may want to create a custom sound algorithm to compress or splice audio with ease<sup>15</sup>.\
+![Imgur](https://imgur.com/Vu5KkmP.jpg)
+
+### Robotics
+
+A user may automate code generation for embedded devices in a variety of languages and deploy hardware-agnostic algorithms<sup>16</sup>.
+An engineer may use 3D models to consider rigid-body mechanics and actuator dynamics to design a hardware platform, and design algorithms which allow robots make choices in ambiguous situations<sup>16</sup>.\
+![Imgur](https://imgur.com/I3SO4sS.png)
+
+### Control Systems
+
+MATLAB provides many design and analysis techniques such as robust control and model predictive control (which help a system deal with uncertainty), Bode diagrams (graph of a system’s frequency response), and linear algebraic tools.  It may also simulate supervisory logic to perform scheduling, mode switching, and FDIR (fault detection, isolation, and recovery)<sup>17</sup>.
+![Imgur](https://imgur.com/6tbcHUI.png)
+
+
+### Embedded Systems
+In embedded systems MATLAB can be used in conjunction with built in code generators (from out of the box) or with third party libraries to generate C/C++ code for optimal embedded systems code. Some examples of embedded systems are washing machines, printers, automobiles, cameras, industrial machines, etc<sup>18</sup>.
 
 ### Linear Algebra
-
-Specifically Matlab shines when having to vectorize data through matrices using Linear Algebra. "Linear algebra functions in MATLAB provide fast, numerically robust matrix calculations. Capabilities include a variety of matrix factorizations, linear equation solving, computation of eigenvalues or singular values, and more"<sup>11</sup>.
-
+Specifically MATLAB shines when having to vectorize data through matrices using Linear Algebra. "Linear algebra functions in MATLAB provide fast, numerically robust matrix calculations. Capabilities include a variety of matrix factorizations, linear equation solving, computation of eigenvalues or singular values, and more."<sup>19</sup>
 MATLAB contains functions, such as mldivide, for linear algebra. mldivide is simply called using the syntax:
-
 ```matlab
 Input:
 A = sparse([0 2 0 1 0; 4 -1 -1 0 0; 0 0 0 3 -6; -2 0 0 0 2; 0 0 4 2 0]);
@@ -158,17 +188,13 @@ x =
    (5,1)       5.0000
 ```
 
-### Embedded Systems
-
-In embedded systems MATLAB can be used in conjunction with built in code generators (from out of the box) or with third party libraries to generate C/C++ code for optimal embedded systems code. Some examples of embedded systems are washing machines, printers, automobiles, cameras, industrial machines, etc<sup>12</sup>.
-
 ## Interesting Features
 
 ---
 
-MATLAB is a dynamic language and it is weakly typed1. It allows for functional, imperative, and object-oriented paradigms<sup>13,14</sup>. MATLAB does not have generic types, nor does it have function overloading, though you can recreate some of these properties by taking advantage of its dynamism and weak typing<sup>13</sup>.
+MATLAB is a dynamic language and it is weakly typed<sup>23</sup>. It allows for functional, imperative, and object-oriented paradigms<sup>23,24</sup>. MATLAB does not have generic types, nor does it have function overloading, though you can recreate some of these properties by taking advantage of its dynamism and weak typing<sup>23</sup>.
 
-MATLAB gets its name from the phrase “matrix laboratory,” and consequently has very strong support for matrices in the language<sup>14</sup>. As opposed to C or Java, where transforming a matrix involves for-loops over arrays, MATLAB has built in matrix data types that allow you to perform matrix operations natively. It natively allows for many kinds of matrix operations, such as matrix multiplication, transposition, and inversion<sup>15</sup>. For instance, scalar multiplication looks like this:
+MATLAB gets its name from the phrase “matrix laboratory,” and consequently has very strong support for matrices in the language<sup>24</sup>. As opposed to C or Java, where transforming a matrix involves for-loops over arrays, MATLAB has built in matrix data types that allow you to perform matrix operations natively. It natively allows for many kinds of matrix operations, such as matrix multiplication, transposition, and inversion<sup>25</sup>. For instance, scalar multiplication looks like this:
 
 ```MATLAB
 >> a = [1 2 3; 4 5 6; 7 8 9]
@@ -186,7 +212,7 @@ ans =
  14 16 18
 ```
 
-Additionally, MATLAB has very well-integrated support for plotting and graphing<sup>14</sup>. This is one of its major selling-points in engineering. For instance, the following graph is generated by this code:
+Additionally, MATLAB has very well-integrated support for plotting and graphing<sup>24</sup>. This is one of its major selling-points in engineering. For instance, the following graph is generated by this code:
 
 ```MATLAB
 x = 0:pi/100:2*pi;
@@ -196,7 +222,7 @@ plot(x,y)
 
 ![](https://lh4.googleusercontent.com/NUeVx6Mvs9e8Wa-81vRIHz_oQIpR5J-o4Tbk7D2XJ9LMLqySWiq5umkhK4EgtvYkUpyPnWwyKqz9CGHloA-RwHiDX9nt_l4uFL3b_L7y4BmTTsOW_IiateP_QaBH8vVHvmFZ1-l3)
 
-And a much more complicated example is still relatively trivial<sup>16</sup>:
+And a much more complicated example is still relatively trivial<sup>26</sup>:
 
 ```MATLAB
 [X,Y] = meshgrid(-10:0.25:10,-10:0.25:10);
@@ -211,29 +237,39 @@ hidden off
 
 ![](https://lh3.googleusercontent.com/ZV3xCCFGMEFkKKu3g_icehWSSFQ1dKQw_fy2AIjESo3LGhiQZBR3RpvMvq82cXLquqI0ZrOlffuOLNnLSmN-hE3IVgjOr1VOpZVapZkJLRpW1IAokLjA_8xQCQBBzlxaGCF3ovFn)
 
-MATLAB also has functionality for what it calls “live scripts,” which are analogous to Jupyter notebooks specifically designed for MATLAB. Live scripts give you the ability to format text, comments, and images inline with running code<sup>17</sup>.
+MATLAB also has functionality for what it calls “live scripts,” which are analogous to Jupyter notebooks specifically designed for MATLAB. Live scripts give you the ability to format text, comments, and images inline with running code<sup>27</sup>.
 
-As mentioned, MATLAB also has extensive support for interaction with other programming languages. You can easily call code written in C/C++, Fortran, Java, Python, and .NET, or call MATLAB from one of those languages<sup>18</sup>. These are all very important languages in engineering and data analytics, which are also the market for MATLAB, making interoperability with these languages very attractive.
+As mentioned, MATLAB also has extensive support for interaction with other programming languages. You can easily call code written in C/C++, Fortran, Java, Python, and .NET, or call MATLAB from one of those languages<sup>28</sup>. These are all very important languages in engineering and data analytics, which are also the market for MATLAB, making interoperability with these languages very attractive.
 
 ---
 
 ## Sources
 
-1. [http://www.netlib.org/linpack/](http://www.netlib.org/linpack/)
-2. [http://history.siam.org/oralhistories/dongarra.htm](http://history.siam.org/oralhistories/dongarra.htm)
-3. [https://en.wikipedia.org/wiki/MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-4. [https://www.mathworks.com/company/newsletters/articles/the-origins-of-matlab.html](https://www.mathworks.com/company/newsletters/articles/the-origins-of-matlab.html)
-5. [https://www.mathworks.com/company/newsletters/articles/matlab-incorporates-lapack.html](https://www.mathworks.com/company/newsletters/articles/matlab-incorporates-lapack.html)
-6. [https://enlyft.com/tech/products/MATLAB](https://enlyft.com/tech/products/MATLAB)
-7. [https://www.monster.com/jobs/search/?q=MATLAB&stpage=1&page=2&jobid=214087520](https://www.monster.com/jobs/search/?q=MATLAB&stpage=1&page=2&jobid=214087520)
-8. [https://www.mathworks.com/company/user_stories/MATLAB-and-simulink-help-land-unpiloted-boeing-spacecraft.html ](https://www.mathworks.com/company/user_stories/MATLAB-and-simulink-help-land-unpiloted-boeing-spacecraft.html)
-9. [https://www.researchgate.net/profile/Antonios_Andreatos/publication/267718047_Engineering_education_e-assessment_with_Matlab_Case_study_in_electronic_design_2_Description_of_the_e-assessment_tool/links/555db59608ae8c0cab2aeebc/Engineering-education-e-assessment-with-Matlab-Case-study-in-electronic-design-2-Description-of-the-e-assessment-tool.pdf](https://www.researchgate.net/profile/Antonios_Andreatos/publication/267718047_Engineering_education_e-assessment_with_Matlab_Case_study_in_electronic_design_2_Description_of_the_e-assessment_tool/links/555db59608ae8c0cab2aeebc/Engineering-education-e-assessment-with-Matlab-Case-study-in-electronic-design-2-Description-of-the-e-assessment-tool.pdf)
-10. [https://www.educba.com/uses-of-matlab/](https://www.educba.com/uses-of-matlab/)
-11. [https://www.mathworks.com/help/matlab/linear-algebra.html](https://www.mathworks.com/help/matlab/linear-algebra.html)
-12. [https://www.educba.com/uses-of-matlab/](https://www.educba.com/uses-of-matlab/)
-13. [https://www.mathworks.com/help/MATLAB/MATLAB_oop/MATLAB-vs-other-oo-languages.html](https://www.mathworks.com/help/matlab/matlab_oop/matlab-vs-other-oo-languages.html)
-14. [https://en.wikipedia.org/wiki/MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-15. [https://www.mathworks.com/help/MATLAB/learn_MATLAB/matrices-and-arrays.html](https://www.mathworks.com/help/matlab/learn_matlab/matrices-and-arrays.html)
-16. [https://commons.wikimedia.org/wiki/File:MATLAB_mesh_sinc3D.svg](https://commons.wikimedia.org/wiki/File:MATLAB_mesh_sinc3D.svg)
-17. [https://www.mathworks.com/help/MATLAB/learn_MATLAB/scripts.html](https://www.mathworks.com/help/matlab/learn_matlab/scripts.html)
-18. [https://www.mathworks.com/help/MATLAB/external-language-interfaces.html](https://www.mathworks.com/help/matlab/external-language-interfaces.html)
+1. http://www.netlib.org/linpack/
+2. http://history.siam.org/oralhistories/dongarra.htm
+3. https://en.wikipedia.org/wiki/MATLAB
+4. https://www.mathworks.com/company/newsletters/articles/the-origins-of-matlab.html
+5. https://www.mathworks.com/company/newsletters/articles/matlab-incorporates-lapack.html
+6. https://enlyft.com/tech/products/MATLAB
+7. https://www.monster.com/jobs/search/?q=MATLAB&stpage=1&page=2&jobid=214087520
+8. https://www.mathworks.com/company/user_stories/MATLAB-and-simulink-help-land-unpiloted-boeing-spacecraft.html
+9. https://www.researchgate.net/profile/Antonios_Andreatos/publication/267718047_Engineering_education_e-assessment_with_Matlab_Case_study_in_electronic_design_2_Description_of_the_e-assessment_tool/links/555db59608ae8c0cab2aeebc/Engineering-education-e-assessment-with-Matlab-Case-study-in-electronic-design-2-Description-of-the-e-assessment-tool.pdf
+10. https://www.mathworks.com/solutions/data-science.html
+11. https://www.mathworks.com/solutions/deep-learning.html
+12. https://www.mathworks.com/solutions/image-video-processing.html
+13.https://www.mathworks.com/solutions/signal-processing.html
+14. https://www.mathworks.com/solutions/wireless-communications.html
+15. https://www.educba.com/uses-of-MATLAB/
+16. https://www.mathworks.com/solutions/robotics.html
+17. https://www.mathworks.com/solutions/control-systems.html
+18. https://www.educba.com/uses-of-MATLAB/
+19. https://www.mathworks.com/help/MATLAB/linear-algebra.html
+20. https://www.educba.com/uses-of-matlab/
+21. https://www.mathworks.com/help/matlab/linear-algebra.html
+22. https://www.educba.com/uses-of-matlab/
+23. https://www.mathworks.com/help/MATLAB/MATLAB_oop/MATLAB-vs-other-oo-languages.html
+24. https://en.wikipedia.org/wiki/MATLAB
+25. https://www.mathworks.com/help/MATLAB/learn_MATLAB/matrices-and-arrays.html
+26. https://commons.wikimedia.org/wiki/File:MATLAB_mesh_sinc3D.svg
+27. https://www.mathworks.com/help/MATLAB/learn_MATLAB/scripts.html
+28. https://www.mathworks.com/help/MATLAB/external-language-interfaces.html
