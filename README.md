@@ -92,7 +92,7 @@ A majority of the companies (~58% of the companies) that use MATLAB generate les
 
 ![Imgur](https://i.imgur.com/zTHHcch.png)
 
-##### Case Study of MATLAB in use at Boeing:
+### Case Study of MATLAB in use at Boeing:
 
 MathWorks in tandem with Boeing created the guidance, navigation, control systems necessary for the X-40A reusable space vehicle. The vehicle needed to land on a runway and come to a full stop without a pilot controlling the vehicle.
 
@@ -113,13 +113,13 @@ The instructor designed an application which would have a student GUI and a teac
 
 ![Imgur](https://i.imgur.com/W89m251.png)
 
-##### Student GUI
+### Student GUI
 
 The instructor’s GUI offers a “batch mode” in which an excel file can be generated in order for the instructor to track progress and results of the students in the class.
 
 ![Imgur](https://i.imgur.com/2SbHhBl.png)
 
-##### Instructor “Batch Mode” MATLAB generated Excel Sheet
+### Instructor “Batch Mode” MATLAB generated Excel Sheet
 
 The benefits of designing an application like this two-part GUI for academic excellence is quite obvious.
 
