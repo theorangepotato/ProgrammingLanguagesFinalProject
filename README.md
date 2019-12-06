@@ -4,7 +4,7 @@
 
 ## Introduction
 
-We chose MATLAB as a language to research and present because of its useability in Mathematics and Engineering related fields. It also has great features of auto-generating reliable C/C++ style code from MATLAB code which can increase the speed of the programs being used.
+We chose MATLAB as a language to research and present because of its useability in Mathematics and Engineering related fields. It is an old language with many features, many which are very relevant today, like it’s libraries and APIs that can use code from other languages or be integrated in other languages. It also has great features of auto-generating reliable C/C++ style code from MATLAB code which can increase the speed of the programs being used.
 
 ## History of MATLAB
 
@@ -247,6 +247,10 @@ hidden off
 MATLAB also has functionality for what it calls “live scripts,” which are analogous to Jupyter notebooks specifically designed for MATLAB. Live scripts give you the ability to format text, comments, and images inline with running code<sup>27</sup>.
 
 As mentioned, MATLAB also has extensive support for interaction with other programming languages. You can easily call code written in C/C++, Fortran, Java, Python, and .NET, or call MATLAB from one of those languages<sup>28</sup>. These are all very important languages in engineering and data analytics, which are also the market for MATLAB, making interoperability with these languages very attractive.
+
+### Conclusion
+
+In conclusion, MATLAB is an incredibly versatile program that’s excellent for testing conditions, especially when outcomes that go wrong could be deadly or expensive in the real world. Not only is it great for engineers and researchers, but it’s also a good language for students to learn because it allows them to get experience with multiple paradigms without needing to learn multiple languages. It’s extensive APIs and applications in successful companies around the globe also makes MATLAB a good language to learn for resumes and job opportunities. Overall, we feel that MATLAB was worth researching and is worth spending a little bit more time on for those looking to expand their computer science knowledge. 
 
 ---
 
