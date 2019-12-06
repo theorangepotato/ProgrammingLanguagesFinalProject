@@ -2,7 +2,7 @@
 
 *Written by: Austin Bohannon, Megan Walley, Donner Hanson, and Allison Thompson*
 
-https://docs.google.com/presentation/d/1Y1oXH4QLsKJOjrWdB1li7gcEWfFs_uOfYCrapSPDZl0/edit?usp=sharing
+http://bit.ly/presentMATLAB
 
 ## Introduction
 
