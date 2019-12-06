@@ -150,7 +150,8 @@ It contains tools which allow a user to collaborate with teams using other langu
 
 ### Signal Processing
 
-A user can develop predictive models to analyze signals and sensor data, as MATLAB comes with machine learning and deep learning workflows as well as built-in signal analysis and measurement tools<sup>13</sup>.
+A user can develop predictive models to analyze signals and sensor data, as MATLAB comes with machine learning and deep learning workflows as well as built-in signal analysis and measurement tools<sup>13</sup>.\
+![Imgur](https://imgur.com/Cujl92a.png)
 
 ### Wireless Communications
 MATLAB can be used to create high level and high fidelity models to simulate component interactions, making it easy to compare designs and analyze performance impact.  Models can have digital, RF, and antenna designs to optimize behavior<sup>14</sup>.
